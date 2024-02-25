@@ -5,6 +5,10 @@ namespace Messanger.API.EndPoints
     public static class FileModule
     {
         //"C:\Users\Татьяна\Desktop\Char.txt"
+        /// <summary>
+        /// qweqwe
+        /// </summary>
+        /// <param name="app"></param>
         public static void AddFileModule(this IEndpointRouteBuilder app)
         {
             app.MapPost("PathFile", async (string path, IFileService _fileService) =>
